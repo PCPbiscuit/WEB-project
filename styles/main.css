@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: poppins, sans-serif;
+}
+
+#root {
+  height: 1000px;
+  background-image: url("../img/bg-bunner-2.jpg");
+  background-size: cover;
+  position: relative;
+}
+
+#root #mainBlock {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  overflow: auto;
+}
+
+#stickyHeader {
+  height: 150px;
+  width: 100%;
+  background-color: rgba(115, 115, 115, 0.3);
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 999;
+}
+
+#stickyHeader .headerLogo {
+  display: inline-block;
+  text-decoration: none;
+}
+
+#stickyHeader .pestoLogo {
+  margin: 45px;
+  margin-left: 50%;
+  display: inline-block;
+  position: relative;
+}
+
+#stickyHeader .stickyMenu {
+  list-style: none;
+  width: 35%;
+  display: inline-block;
+  position: absolute;
+  top: 40%;
+  left: 32.5%;
+}
+
+#stickyHeader .stickyMenu ul {
+  text-align: center;
+}
+
+#stickyHeader .stickyMenu li {
+  display: inline;
+  margin: 3%;
+  cursor: pointer;
+  font-size: 15px;
+  line-height: 1.7;
+  font-weight: 600;
+  color: white;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+#stickyHeader .stickyMenu li:first-child {
+  color: green;
+}
+
+#stickyHeader .stickyMenu li:hover {
+  color: #41A451;
+  text-shadow: 0 0 3px black;
+}
+
+#stickyHeader .bookNow {
+  display: inline-block;
+  position: absolute;
+  right: 10%;
+  top: 35%;
+  padding: 12px 30px;
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: 600;
+  background-color: white;
+  cursor: pointer;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+#stickyHeader .bookNow:hover {
+  background-color: black;
+  color: white;
+  text-decoration: none;
+}
+
+#welcomeBlock {
+  height: 850px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#welcomeBlock .welcomeTextBox {
+  text-align: center;
+}
+
+#welcomeBlock .welcomeTextBox .welcomeHeader {
+  color: white;
+  font-size: 70px;
+  text-shadow: 0 0 10px black;
+  font-family: 'pt serif';
+  position: relative;
+  z-index: 2;
+}
+
+#welcomeBlock .welcomeTextBox hr {
+  margin-left: auto;
+  margin-right: auto;
+  width: 7.5%;
+  height: 2px;
+  border: none;
+  background-color: white;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  position: relative;
+  z-index: 999;
+}
+
+#welcomeBlock .welcomeTextBox .welcomeText {
+  font-size: 17.5px;
+  color: white;
+  text-shadow: 0px 1px 1px black;
+  width: 65%;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.6;
+  position: relative;
+  z-index: 2;
+}
+
+#aboutUs {
+  height: 600px;
+  background-color: #f5f5f5;
+}
+
+#aboutUs .reservationInnerBlock {
+  display: none;
+}
+/*# sourceMappingURL=main.css.map */

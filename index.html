@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/all.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="root">
+        <div id="mainBlock"></div>
+        <div id="stickyHeader">
+            <div class="headerLogo">
+                <a href="index.html">
+                    <img src="img/logo-default1-140x57.png" alt="logo" class="pestoLogo">
+                </a>
+            </div>
+            <div class="stickyMenu">
+                <ul>
+                    <li>HOME</li>
+                    <li>ABOUT</li>
+                    <li>TYPOGRAPHY</li>
+                    <li>CONTACTS</li>
+                </ul>
+            </div>
+            <div class="bookNow">BOOK NOW</div>
+        </div>
+        <div id="welcomeBlock">
+            <div class="welcomeTextBox">
+                <div class="welcomeHeader">WELCOME</div>
+                <hr>
+                <div class="welcomeText">Our restaurant offers full-service dining with breathtaking views seen from our
+                    indoor dover patio and our outdoor sundeck</div>
+            </div>
+        </div>
+    </div>
+    <div id="aboutUs">
+        <div class="reservationBlockContainer">
+            <div class="bgPhoto">
+                    <div class="frontPhoto"></div>
+                    <div class="aboutTextBlock">
+                        <div class="aboutHeader"></div>
+                        <div class="aboutText"></div>
+                        <div class="aboutSignature"></div>
+                    </div>
+            </div>
+            
+            <div class="reservationInnerBlock">
+                <form class="reservationForm">
+                    <div class="name">
+                        <p class="reservationTitle">NAME</p>
+                        <input type="text" placeholder="Your name">
+                    </div>
+                    <div class="phone">
+                        <p class="reservationTitle">PHONE</p>
+                        <input type="text" placeholder="Your phone number">
+                    </div>
+                    <div class="date">
+                        <p class="reservationTitle">DATE</p>
+                        <input type="date" placeholder="Date">
+                    </div>
+                    <div class="peopleCount">
+                        <p class="reservationTitle">NO. OF PEOPLE</p>
+                        <select name="number">
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                            <option>6</option>
+                            <option>7</option>
+                        </select>
+                    </div>
+                    <div class="checkAvailability">
+                        <p class="reservationTitle">CHECK AVAILABILITY</p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
