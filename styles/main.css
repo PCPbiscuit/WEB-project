@@ -156,9 +156,69 @@
 #aboutUs {
   height: 600px;
   background-color: #f5f5f5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
 }
 
-#aboutUs .reservationInnerBlock {
-  display: none;
+#aboutUs .aboutUsInner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 80%;
+}
+
+#aboutUs .aboutUsInner .chefPhotoBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#aboutUs .aboutUsInner .chefPhotoBox .backPhoto {
+  display: inline-block;
+  position: relative;
+}
+
+#aboutUs .aboutUsInner .chefPhotoBox .chefPhoto {
+  display: inline-block;
+  position: absolute;
+  bottom: 0;
+  left: 15%;
+}
+
+#aboutUs .aboutUsInner .aboutTextBlock {
+  width: 45%;
+  margin-left: 50px;
+}
+
+#aboutUs .aboutUsInner .aboutTextBlock * {
+  margin-top: 5%;
+  font-family: "Times New Roman", Times, serif;
+}
+
+#aboutUs .aboutUsInner .aboutTextBlock h1 {
+  margin-top: 30%;
+  font-weight: 600;
+}
+
+#aboutUs .aboutUsInner .aboutTextBlock p {
+  font-size: 19px;
+}
+
+#aboutUs p {
+  margin-bottom: 0;
 }
 /*# sourceMappingURL=main.css.map */
