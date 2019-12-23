@@ -218,7 +218,105 @@
   font-size: 19px;
 }
 
-#aboutUs p {
-  margin-bottom: 0;
+#aboutUs .reservationInnerBlock {
+  height: 150px;
+  width: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  background-color: #ffffff;
+  position: absolute;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  z-index: 999;
+  border-radius: 10px;
+}
+
+#aboutUs .reservationInnerBlock .reservationForm {
+  width: 100%;
+  text-align: initial;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#aboutUs .reservationInnerBlock .reservationForm * {
+  margin-left: 10px;
+  margin-right: 10px;
+  border: none;
+}
+
+#aboutUs .reservationInnerBlock .reservationForm select {
+  margin-left: 30%;
+  border: none;
+  font-size: 15px;
+  padding: 5px;
+  text-decoration: none;
+}
+
+#aboutUs .reservationInnerBlock .reservationForm select option {
+  background-color: black;
+  color: white;
+}
+
+#aboutUs .reservationInnerBlock .reservationForm .checkAvailability {
+  text-align: center;
+  padding: 15px;
+  background-color: #282828;
+  border: 1px #282828 solid;
+  color: white;
+  margin: 0;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#aboutUs .reservationInnerBlock .reservationForm .checkAvailability:hover {
+  background-color: #41A451;
+  border-color: #41A451;
+}
+
+#aboutUs .reservationInnerBlock .title {
+  display: inline-block;
+  width: 15%;
+}
+
+#aboutUs .reservationInnerBlock .title input {
+  color: black;
+  font-size: 19px;
+  border: none;
+}
+
+#aboutUs .reservationInnerBlock .title ::-webkit-input-placeholder {
+  color: black;
+}
+
+#aboutUs .reservationInnerBlock .title :-ms-input-placeholder {
+  color: black;
+}
+
+#aboutUs .reservationInnerBlock .title ::-ms-input-placeholder {
+  color: black;
+}
+
+#aboutUs .reservationInnerBlock .title ::placeholder {
+  color: black;
+}
+
+#aboutUs .reservationInnerBlock p {
+  font-size: 18px;
+  color: #696969;
 }
 /*# sourceMappingURL=main.css.map */
