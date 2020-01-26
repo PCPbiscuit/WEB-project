@@ -352,6 +352,7 @@
   -webkit-transition: .5s;
   transition: .5s;
   cursor: pointer;
+  margin-left: 2%;
 }
 
 #aboutUs .reservationInnerBlock .reservationForm .checkAvailability:hover {
@@ -389,6 +390,19 @@
 #aboutUs .reservationInnerBlock p {
   font-size: 18px;
   color: #696969;
+}
+
+#aboutUs .reservationInnerBlock .date input {
+  width: 80%;
+}
+
+#aboutUs .reservationInnerBlock .peopleCount {
+  text-align: center;
+}
+
+#aboutUs .reservationInnerBlock .peopleCount select {
+  text-align: center;
+  margin: 0;
 }
 
 #featuredOffers {
