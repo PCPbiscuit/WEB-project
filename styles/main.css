@@ -834,6 +834,12 @@
 
 #photosModal button i {
   font-size: 200%;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+#photosModal button i:hover {
+  color: #41A451;
 }
 
 #photosModal .rightButton {
