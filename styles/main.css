@@ -518,7 +518,7 @@
 #featuredOffers .featuredInner .featuredPhotoBlock .featuredPhotoGrid .orderNow {
   opacity: 0;
   position: absolute;
-  left: 30%;
+  left: 50%;
   bottom: 50%;
   padding: 3.5% 7%;
   background-color: #41A451;
@@ -529,6 +529,8 @@
   cursor: pointer;
   -webkit-transition: .5s;
   transition: .5s;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
 }
 
 #featuredOffers .featuredInner .featuredPhotoBlock .featuredPhotoGrid .orderNow:hover {
@@ -693,7 +695,7 @@
   position: absolute;
   opacity: 0;
   top: 50%;
-  left: 40%;
+  left: 50%;
   padding: 25px 5px;
   text-align: center;
   font-weight: bold;
@@ -708,6 +710,8 @@
   -webkit-transition: .5s;
   transition: .5s;
   font-family: 'Lusitana', serif;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
 }
 
 #photosBlock .photosBlockInner .zoomButton:hover {
